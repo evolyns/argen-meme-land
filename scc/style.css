@@ -1,6 +1,15 @@
-h2 {
-  color: crimson;
-  font-size: 30px;
+.recuadro__imagen {
+  background-color: red;
+  width: 150px;
+  padding: 10px;
+  margin: 0;
+}
+
+.recuadro__nombre {
+  font-size: 24px;
+  color: rgb(13, 185, 13);
+  background-color: aqua;
+  width: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */
