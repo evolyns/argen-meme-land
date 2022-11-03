@@ -1,23 +1,45 @@
-$tamanio-nombre:".nombre__usuario"font-size;
+.barra__navr{
+    margin-top: 105px;
+}
+.recuadro__contenedor{
+    background-color: rgb(243, 243, 243);
+    border-radius: 8px;
+    margin-bottom: 5px;
+    margin-top: 7px;
 
-// ACA ESTAN LOS RECUADROS DE LAS PUBLICACIONES DE LOS USUARIOS
-    .recuadro__imagen{
-    background-color: red;
-    width: 45px;
-    height: 45px;
-    padding: 10px;
-border-radius: 50px;
-    
-    margin: 0;
-    }
-.nombre__usuario{
-    font-size: 24px;
-    color: rgb(255, 255, 255);
-    
-    
 
 }
-// Hastags 
+
+.recuadro__cabecera{
+ align-items: center;
+    background-color: rgb(227, 255, 133);
+    width: max-content ;
+    gap: 6px;
+    padding: 3px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+// ACA ESTAN LOS RECUADROS DE LAS PUBLICACIONES DE LOS USUARIOS
+.recuadro__imagen{
+    width: 45px;
+    height: 45px;
+    padding: 1px;
+    border-radius: 50px;
+    
+}
+.nombre__usuario{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    }
+.imagen__subida{
+    border-radius: 7px;
+}
+.recuadro__texto{
+    background-color: rgba(204, 204, 204, 0.145);
+
+}
+    // Hastags 
 div{
     a{
         h6{
