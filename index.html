@@ -10,16 +10,16 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-</head>
-
-<body>
+    </head>
+    
+    <body>
     <header>
 
         <nav class="navbar navbar-expand-lg bg-light fixed-top">
             <div class="container  ">
                 <a class="navbar-brand  " href="#">Argen meme land</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -29,12 +29,14 @@
                             <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="registrarse.html">Registrarse</a>
+                            <button onclick="recuadro__registro1()">Registrarse
+                            </button>
+                            
                         </li>
                     </ul>
                     <form class="d-flex  " role="search">
                         <input class="form-control me-1 " type="search" placeholder="Buscador de memes"
-                            aria-label="Search">
+                        aria-label="Search">
                         <button class="btn btn-outline-success  " type="submit">BUSCAR</button>
                     </form>
                 </div>
@@ -42,8 +44,46 @@
         </nav>
     </header>
     <main>
-       
-        <!-- EL CONTENEDOR DE UNA PUBLICACION -->
+        <!-- EL REGISTRO DEL USUARIO  -->
+        <div class="container d-flex justify-content-center bloque__registro fixed-top ">
+            <div class="row">
+                <div class="col-sm-3 col-md-6 col-lg-12 mt-5  position-static bg-black ">
+
+                    
+                        <form >
+                            <div class="p-2" >
+                                
+                                <div class="mb-3">
+                                    <label for="email1" class="form-label">Direccion de correo electronico</label>
+                                    <input type="email" class="form-control" id="email1" aria-describedby="emailHelp">
+                                    <span id="emailHelp" class="form-text">No compartiremos tu correo con nadie.</span>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-2">
+                                    
+                                    <span id="passwordHelpInline" class="form-text">Debe tener entre 4 y 8 caracteres</span>
+                                </div>
+            <div class="d-flex justify-content-center p-1 ">
+        <div class="mb-3 form-check  ">
+            <input type="checkbox" class="form-check-input  " id="exampleCheck1">
+            <label class="form-check-label  " for="exampleCheck1">Tocalo si te da el cuero</label>
+        </div>
+    </div>
+    <div class="text-center" >
+        
+        <button type="submit" class="btn btn-primary">Registrarse</button>
+    </div>
+</div>
+</form>
+</div>
+</div>
+</div>
+
+</div>
+<!-- EL CONTENEDOR DE UNA PUBLICACION -->
         <div class="container bg-light-grey d-flex justify-content-center recuadro__contenedor  ">
             <div class="row">
                 <div class="col-sm-3 col-md-6 col-lg-12 p-2 mb-1 ">
@@ -62,7 +102,7 @@
                     <div class="">
                         <img src="https://scontent.feze7-2.fna.fbcdn.net/v/t39.30808-6/313024366_167668332539282_2318533281419635179_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=5cd70e&_nc_eui2=AeFLzR-YlN5Ju3PFhPuaa2ueE8-aF-N5ItoTz5oX43ki2qzPYiqU9Oi_1ESgfXntlHw&_nc_ohc=q-QATZsdP1cAX8SP5wS&tn=O5MJYaZk7CbiXh1u&_nc_ht=scontent.feze7-2.fna&oh=00_AfDQXsUYm385kD9-355998uvlecS9I3elds9hsGHY1j_kw&oe=63636575"
                             class="img-fluid mb-2 d-flex justify-content-center imagen__subida " alt="...">
-                    </div>
+                        </div>
                     <!-- EL RECUADRO CON EL TEXTO POR DEBAJO DE LA IMAGEN  -->
                     <div class="bg-light">
                         <!-- <h3 class="p-2">descripcion de la imagen si se quiere</h3> -->
@@ -79,7 +119,7 @@
                 </div>
             </div>
         </div>
-
+        
 <!-- EL CONTENEDOR DE UNA PUBLICACION -->
 <div class="container bg-light-grey d-flex justify-content-center recuadro__contenedor  ">
     <div class="row">
@@ -98,7 +138,7 @@
             <!-- LA IMAGEN QUE SUBIO -->
             <div class="">
                 <img src="https://scontent.feze7-2.fna.fbcdn.net/v/t39.30808-6/312920679_661314575549247_194385943494930912_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=1eeIKS70JTEAX93HOHK&_nc_ht=scontent.feze7-2.fna&oh=00_AfBzszCrhjfIoy2h_K-mfRodkKlUcumrkaSufCU9mn2Gdw&oe=6368A2E2"
-                    class="img-fluid mb-2 d-flex justify-content-center imagen__subida " alt="...">
+                class="img-fluid mb-2 d-flex justify-content-center imagen__subida " alt="...">
             </div>
             <!-- EL RECUADRO CON EL TEXTO POR DEBAJO DE LA IMAGEN  -->
             <div class="bg-light">
@@ -118,7 +158,7 @@
 </div>
 
 
-        <!-- EL CONTENEDOR DE UNA PUBLICACION -->
+<!-- EL CONTENEDOR DE UNA PUBLICACION -->
 <div class="container bg-light-grey d-flex justify-content-center recuadro__contenedor  ">
     <div class="row">
         <div class="col-sm-3 col-md-6 col-lg-12 p-2 mb-1 ">
@@ -136,7 +176,7 @@
             <!-- LA IMAGEN QUE SUBIO -->
             <div class="">
                 <img src="https://scontent.feze7-2.fna.fbcdn.net/v/t39.30808-6/313415921_661414538872584_4019550250315411637_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=sUDhzyZaIhgAX_H2njA&_nc_ht=scontent.feze7-2.fna&oh=00_AfCmE8nhCsnRKMWuNwxFHTBWc9zIHDeW7oZJYAhGDNmazQ&oe=6367BD7C"
-                    class="img-fluid mb-2 d-flex justify-content-center imagen__subida " alt="...">
+                class="img-fluid mb-2 d-flex justify-content-center imagen__subida " alt="...">
             </div>
             <!-- EL RECUADRO CON EL TEXTO POR DEBAJO DE LA IMAGEN  -->
             <div class="bg-light">
@@ -156,8 +196,8 @@
 </div>
 
 
- <!-- EL CONTENEDOR DE UNA PUBLICACION -->
- <div class="container bg-light-grey d-flex justify-content-center recuadro__contenedor  ">
+<!-- EL CONTENEDOR DE UNA PUBLICACION -->
+<div class="container bg-light-grey d-flex justify-content-center recuadro__contenedor  ">
     <div class="row">
         <div class="col-sm-3 col-md-6 col-lg-12 p-2 mb-1 ">
             <!-- LA IMAGEN DEL USUARIO -->
@@ -174,7 +214,7 @@
             <!-- LA IMAGEN QUE SUBIO -->
             <div class="">
                 <img src="https://scontent.feze7-2.fna.fbcdn.net/v/t39.30808-6/313356806_682061440146853_2816091082742886818_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=-SpdinIaeZMAX-YkZIE&_nc_ht=scontent.feze7-2.fna&oh=00_AfCqmC_mkt7eH7MMB9oFlXtZAV_0Sly-hS5XTzaWD-zJSA&oe=63675B9B"
-                    class="img-fluid mb-2 d-flex justify-content-center imagen__subida " alt="...">
+                class="img-fluid mb-2 d-flex justify-content-center imagen__subida " alt="...">
             </div>
             <!-- EL RECUADRO CON EL TEXTO POR DEBAJO DE LA IMAGEN  -->
             <div class="recuadro__texto">
@@ -196,7 +236,7 @@
 
  <!-- EL CONTENEDOR DE UNA PUBLICACION -->
  <div class="container bg-light-grey d-flex justify-content-center recuadro__contenedor  ">
-    <div class="row">
+     <div class="row">
         <div class="col-sm-3 col-md-6 col-lg-12 p-2 mb-1 ">
             <!-- LA IMAGEN DEL USUARIO -->
             <div class=" d-flex justify-content-center  ">
@@ -212,7 +252,7 @@
             <!-- LA IMAGEN QUE SUBIO -->
             <div class="">
                 <img src="https://scontent.feze7-1.fna.fbcdn.net/v/t39.30808-6/313064166_680932253593105_5803100699503636647_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=V6DyPZwdapoAX9AtAw3&_nc_ht=scontent.feze7-1.fna&oh=00_AfAcwt11hYwT_suIvd7fP5MKORH6M5_4soYMd2RVBam-pw&oe=63673D71"
-                    class="img-fluid mb-2 d-flex justify-content-center imagen__subida " alt="...">
+                class="img-fluid mb-2 d-flex justify-content-center imagen__subida " alt="...">
             </div>
             <!-- EL RECUADRO CON EL TEXTO POR DEBAJO DE LA IMAGEN  -->
             <div class="bg-light">
@@ -237,16 +277,17 @@
 
 
 
-        <!-- CREAR USUARIO -->
+<!-- CREAR USUARIO -->
 
-    </main>
+</main>
 
 
 
-    <!-- JavaScript Bundle with Popper -->
+<!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
 </body>
 
+<script src="inicio.js"></script>
 </html>

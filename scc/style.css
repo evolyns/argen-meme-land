@@ -43,4 +43,17 @@ div a h6 {
   margin-left: 7px;
 }
 
+.bloque__registro {
+  visibility: hidden;
+}
+
+@keyframes registro {
+  0% {
+    transform: translateX(100px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

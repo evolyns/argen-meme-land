@@ -49,3 +49,15 @@ div{
     }
 }
 
+.bloque__registro{
+    visibility: hidden;
+    
+}
+@keyframes registro{
+    0%{
+       transform: translateX(100px);
+    }
+    100%{
+        transform:translateX(0);
+    }
+}
