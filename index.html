@@ -15,40 +15,53 @@
 <body>
     <header>
 
-        <nav class="navbar navbar-expand-lg bg-light fixed-top">
-            <div class="container  ">
-                <a class="navbar-brand  " href="#">Argen meme land</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0  ">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item text-decoration-none ">
-                            <a href="" onclick=" return recuadro__Isesion()" class="text-decoration-none text-black">
-                                Iniciar secion
-                            </a>
-
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="text-decoration-none text-black" onclick=" return recuadro__registro1()">
-                                Registrarse
-                            </a>
-
-                        </li>
-                    </ul>
-                    <form class="d-flex  " role="search">
+        <nav class="navbar navbar-expand-lg bg-light fixed-top ">
+            <div class="container   ">
+              
+                <a class="navbar-brand  " href="#">Argen meme land</a><button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <form class="d-flex  " role="search">
                         <input class="form-control me-1 " type="search" placeholder="Buscador de memes"
                             aria-label="Search">
-                        <button class="btn btn-outline-success  " type="submit">BUSCAR</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
+                        <button class="btn btn-outline-success m-2  " type="submit">BUSCAR</button>
+                        
+                </form>
+                <!-- ACA ESTA EL INICIO- INICIAR SESION - REGISTRARSE- ICONO DEL PERFIL  -->
+                <div>
+
+                    <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0   ">
+                        <li class="nav-link">
+                            <a class=" text-decoration-none text-black  m-2" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-link  ">
+                            <a href="" onclick=" return recuadro__Isesion()" class="text-decoration-none text-black m-2">
+                                Iniciar secion
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="" class="text-decoration-none text-black m-2" onclick=" return recuadro__registro1()">
+                                Registrarse
+                            </a>
+                            </li>
+                                            <li class=" nav-item dropdown text-end ">
+                            <a class="nav-link dropdown-toggle  recuadro__perfil bg-black m-2   " data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
+                        <img src="img1.jpg" alt="" class="recuadro__imagen ">
+                    </a>
+  <ul class="dropdown-menu text-start">
+      <li><a href="">Perfil</a></li>
+      <li><a href="">Subir meme</a></li>
+      <li><a href="">Ayuda</a></li>
+    </ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</nav>
     </header>
     <main>
         <!-- EL REGISTRO DEL USUARIO  -->

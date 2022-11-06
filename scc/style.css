@@ -19,6 +19,13 @@
   margin-bottom: 5px;
 }
 
+.recuadro__perfil {
+  width: 45px;
+  height: 45px;
+  padding: 1px;
+  border-radius: 50px;
+}
+
 .recuadro__imagen {
   width: 45px;
   height: 45px;
