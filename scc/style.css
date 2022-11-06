@@ -45,6 +45,12 @@ div a h6 {
 
 .bloque__registro {
   visibility: hidden;
+  color: white;
+}
+
+.bloque__Isesion {
+  visibility: hidden;
+  border-radius: 50px;
 }
 
 @keyframes registro {
@@ -54,6 +60,9 @@ div a h6 {
   100% {
     transform: translateX(0);
   }
+}
+h3 {
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */
